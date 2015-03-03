@@ -8,7 +8,7 @@
 %global geminstdir %{gem_dir}/gems/%{gemname}-%{version}
 Summary: Gutterball commands for Hammer
 Name: rubygem-%{gemname}
-Version: 0.0.1
+Version: 1.0.0
 Release: 1%{?dist}
 Group: Development/Languages
 License: GPLv3
@@ -66,3 +66,6 @@ cp -pa .%{gem_dir}/* \
 %doc %{gem_dir}/doc/%{gemname}-%{version}
 
 %changelog
+* Tue Mar 03 2015 Adam Price <komidore64@gmail.com> 1.0.0-1
+- new package built with tito
+
