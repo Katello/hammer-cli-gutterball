@@ -2,6 +2,7 @@
 require 'hammer_cli_katello'
 
 # base commands
+require 'hammer_cli_gutterball/version'
 require 'hammer_cli_gutterball/commands'
 
 # commands
