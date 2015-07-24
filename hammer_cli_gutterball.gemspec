@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary = 'Gutterball commands for Hammer'
   spec.homepage = 'http://github.com/Katello/hammer-cli-gutterball'
 
-  spec.files = Dir['{lib}/**/*', 'LICENSE', 'README.md']
+  spec.files = Dir['config/**/*', '{lib}/**/*', 'LICENSE', 'README.md']
 
   spec.name = 'hammer_cli_gutterball'
   spec.require_paths = %w(lib)
