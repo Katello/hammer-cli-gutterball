@@ -24,6 +24,7 @@ module HammerCLIGutterball
       command_name 'content-host-status'
 
       output do
+        field :uuid, 'UUID'
         field :name, 'Hostname'
         field :status, 'Status'
         field :date, 'Date'
